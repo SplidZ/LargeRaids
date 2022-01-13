@@ -1,17 +1,17 @@
 config:
-  invalid-mob-array-length: The length of the arrays under the `mobs` configuration section below must be at least the number of waves!
-  zero-raider-wave: Each wave must have at least one raider!
+  invalid-mob-array-length: La longueur des tableaux sous la section de configuration « mobs » ci-dessous doit être au moins égale au nombre de vagues !
+  zero-raider-wave: Chaque vague doit avoir au moins un raider !
 
 village-centers:
   add:
-    already-exist: There is already an artificial village center of the same name!
-    add-success: Successfully added a new artificial village center!
-    add-fail: Failed to add a new artificial village center, please run the command again!
+    already-exist: Il existe déjà un centre de village artificiel du même nom !
+    add-success: Ajout d'un nouveau centre de village artificiel avec succès !
+    add-fail: Échec de l'ajout d'un nouveau centre de village artificiel, veuillez réexécuter la commande !
   remove:
-    no-exist: There are no existing artificial village centers with that name!
-    remove-success: Successfully removed an artificial village center!
+    no-exist: Il n'y a pas de centres de village artificiels existants avec ce nom!
+    remove-success: Vous avez supprimé avec succès un centre de village artificiel !
   list:
-    no-exist: There are no existing artificial village centers!
+    no-exist: Il n'y a pas de centres de village artificiels existants !
   database:
-    add-fail: The artificial village center might not have been added properly to the database and might cause further problems! You are advised to restart the server and report this issue immediately.
-    remove-fail: The artificial village center might not have been removed properly to the database and might cause further problems! You are advised to restart the server and report this issue immediately.
+    add-fail: Le centre du village artificiel n'a peut-être pas été ajouté correctement à la base de données et pourrait causer d'autres problèmes ! Il est conseillé de redémarrer le serveur et de signaler ce problème immédiatement.
+    remove-fail: Le centre du village artificiel n'a peut-être pas été correctement supprimé de la base de données et pourrait causer d'autres problèmes ! Il est conseillé de redémarrer le serveur et de signaler ce problème immédiatement.
